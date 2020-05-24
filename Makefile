@@ -171,6 +171,12 @@ chklang.o: chklang.c
 chklang.hrb: chklang.o apilib.a
 	ld -m elf_i386 -e HariMain -o chklang.hrb -Tapi.ls chklang.o -L. -l:apilib.a
 
+notrec.o: notrec.c
+	gcc -fno-pic -fno-stack-protector -c -m32 -o notrec.o notrec.c
+
+notrec.hrb: notrec.o apilib.a
+	ld -m elf_i386 -e HariMain -o notrec.hrb -Tapi.ls notrec.o -L. -l:apilib.a
+
 crack7.o: crack7.asm
 	nasm -g -f elf32 -o crack7.o crack7.asm
 
@@ -325,6 +331,7 @@ haribote.img : ipl10.bin haribote.sys Makefile
 	mcopy -i haribote.img jis.txt ::
 	mcopy -i haribote.img euc.txt ::
 	mcopy -i haribote.img chklang.hrb ::
+	mcopy -i haribote.img notrec.hrb ::
 	
 	
 asm :
@@ -369,6 +376,7 @@ hrb :
 	make type.hrb
 	make iroha.hrb
 	make chklang.hrb
+	make notrec.hrb
 	
 run :
 	make apilib.a
