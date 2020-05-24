@@ -1,7 +1,7 @@
      1                                  ; haribote-os
      2                                  ; TAB=4
      3                                  
-     4                                  VBEMODE EQU     0x109               ; 1024*768*8bitカラー
+     4                                  VBEMODE EQU     0x100               ; 1024*768*8bitカラー
      5                                  ; （画面モード一覧）
      6                                  ;	0x100 :  640 x  400 x 8bitカラー
      7                                  ;	0x101 :  640 x  480 x 8bitカラー
@@ -39,7 +39,7 @@
     39 00000019 7249                        JB      scrn320                     ; if(AX < 0x0200)goto scrn320
     40                                  
     41                                  ; 画面モードの情報を得る
-    42 0000001B B90901                      MOV     CX,VBEMODE
+    42 0000001B B90001                      MOV     CX,VBEMODE
     43 0000001E B8014F                      MOV     AX,0x4f01
     44 00000021 CD10                        INT     0x10
     45 00000023 83F84F                      CMP     AX,0x004f
@@ -55,7 +55,7 @@
     55 0000003C 7426                        JZ      scrn320                     ; モード属性のbit7が0だったので諦める
     56                                      
     57                                  ; 画面モードの切り替え
-    58 0000003E BB0941                      MOV     BX,VBEMODE+0x4000
+    58 0000003E BB0041                      MOV     BX,VBEMODE+0x4000
     59 00000041 B8024F                      MOV     AX,0x4f02
     60 00000044 CD10                        INT     0x10
     61 00000046 C606F20F08                  MOV     BYTE [VMODE],8              ; 画面モードをメモする

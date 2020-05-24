@@ -1,7 +1,7 @@
 ; haribote-os
 ; TAB=4
 
-VBEMODE EQU     0x109               ; 1024*768*8bitカラー
+VBEMODE EQU     0x100               ; 1024*768*8bitカラー
 ; （画面モード一覧）
 ;	0x100 :  640 x  400 x 8bitカラー
 ;	0x101 :  640 x  480 x 8bitカラー

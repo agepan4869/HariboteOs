@@ -177,6 +177,12 @@ notrec.o: notrec.c
 notrec.hrb: notrec.o apilib.a
 	ld -m elf_i386 -e HariMain -o notrec.hrb -Tapi.ls notrec.o -L. -l:apilib.a
 
+bball.o: bball.c
+	gcc -fno-pic -c -m32 -o bball.o bball.c
+
+bball.hrb: bball.o apilib.a
+	ld -m elf_i386 -e HariMain -o bball.hrb -Tapi.ls bball.o -L. -l:apilib.a
+
 crack7.o: crack7.asm
 	nasm -g -f elf32 -o crack7.o crack7.asm
 
@@ -292,46 +298,47 @@ haribote.sys : nasmhead.bin bootpack.hrb Makefile
 haribote.img : ipl10.bin haribote.sys Makefile
 	mformat -f 1440 -C -B ipl10.bin -i haribote.img ::
 	mcopy haribote.sys -i haribote.img ::
-	mcopy -i haribote.img hello.hrb ::
-	mcopy -i haribote.img hello2.hrb ::
-	mcopy -i haribote.img a.hrb ::
-	mcopy -i haribote.img hello3.hrb ::
+#	mcopy -i haribote.img hello.hrb ::
+#	mcopy -i haribote.img hello2.hrb ::
+#	mcopy -i haribote.img a.hrb ::
+#	mcopy -i haribote.img hello3.hrb ::
 #	mcopy -i haribote.img crack1.hrb ::
 #	mcopy -i haribote.img crack2.hrb ::
 #	mcopy -i haribote.img crack3.hrb ::
 #	mcopy -i haribote.img crack4.hrb ::
 #	mcopy -i haribote.img crack5.hrb ::
 #	mcopy -i haribote.img crack6.hrb ::
-	mcopy -i haribote.img crack7.hrb ::
+#	mcopy -i haribote.img crack7.hrb ::
 #	mcopy -i haribote.img bug1.hrb ::
 #	mcopy -i haribote.img bug2.hrb ::
 #	mcopy -i haribote.img bug3.hrb ::
-	mcopy -i haribote.img hello4.hrb ::
-	mcopy -i haribote.img hello5.hrb ::
-	mcopy -i haribote.img winhelo.hrb ::
-	mcopy -i haribote.img winhelo2.hrb ::
-	mcopy -i haribote.img winhelo3.hrb ::
-	mcopy -i haribote.img star1.hrb ::
-	mcopy -i haribote.img stars.hrb ::
-	mcopy -i haribote.img stars2.hrb ::
+#	mcopy -i haribote.img hello4.hrb ::
+#	mcopy -i haribote.img hello5.hrb ::
+#	mcopy -i haribote.img winhelo.hrb ::
+#	mcopy -i haribote.img winhelo2.hrb ::
+#	mcopy -i haribote.img winhelo3.hrb ::
+#	mcopy -i haribote.img star1.hrb ::
+#	mcopy -i haribote.img stars.hrb ::
+#	mcopy -i haribote.img stars2.hrb ::
 	mcopy -i haribote.img lines.hrb ::
-	mcopy -i haribote.img walk.hrb ::
-	mcopy -i haribote.img noodle.hrb ::
-	mcopy -i haribote.img beepdown.hrb ::
-	mcopy -i haribote.img color.hrb ::
-	mcopy -i haribote.img color2.hrb ::
-	mcopy -i haribote.img sosu.hrb ::
-	mcopy -i haribote.img sosu2.hrb ::
-	mcopy -i haribote.img sosu3.hrb ::
+#	mcopy -i haribote.img walk.hrb ::
+#	mcopy -i haribote.img noodle.hrb ::
+#	mcopy -i haribote.img beepdown.hrb ::
+#	mcopy -i haribote.img color.hrb ::
+#	mcopy -i haribote.img color2.hrb ::
+#	mcopy -i haribote.img sosu.hrb ::
+#	mcopy -i haribote.img sosu2.hrb ::
+#	mcopy -i haribote.img sosu3.hrb ::
 #	mcopy -i haribote.img typeipl.hrb ::
-	mcopy -i haribote.img ipl10.asm ::
-	mcopy -i haribote.img type.hrb ::
-	mcopy -i haribote.img iroha.hrb ::
+#	mcopy -i haribote.img ipl10.asm ::
+#	mcopy -i haribote.img type.hrb ::
+#	mcopy -i haribote.img iroha.hrb ::
 	mcopy -i haribote.img nihongo.fnt ::
-	mcopy -i haribote.img jis.txt ::
-	mcopy -i haribote.img euc.txt ::
-	mcopy -i haribote.img chklang.hrb ::
-	mcopy -i haribote.img notrec.hrb ::
+#	mcopy -i haribote.img jis.txt ::
+#	mcopy -i haribote.img euc.txt ::
+#	mcopy -i haribote.img chklang.hrb ::
+#	mcopy -i haribote.img notrec.hrb ::
+	mcopy -i haribote.img bball.hrb ::
 	
 	
 asm :
@@ -377,6 +384,7 @@ hrb :
 	make iroha.hrb
 	make chklang.hrb
 	make notrec.hrb
+	make bball.hrb
 	
 run :
 	make apilib.a
