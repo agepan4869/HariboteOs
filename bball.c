@@ -1,5 +1,7 @@
 #include "apilib.h"
+void __stack_chk_fail(){
 
+}
 void HariMain(void){
     int win,i,j,dis;
     char buf[216*237];
