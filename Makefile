@@ -189,6 +189,13 @@ invader.o: invader.c
 invader.hrb: invader.o apilib.a
 	ld -m elf_i386 -e HariMain -o invader.hrb -Tapi.ls invader.o -L. -l:apilib.a
 
+calc.o: calc.c
+	gcc  -fno-pic -fno-stack-protector -c -m32 -o calc.o calc.c
+
+calc.hrb: calc.o apilib.a
+	ld -m elf_i386 -e HariMain -o calc.hrb -Tapi.ls calc.o -L. -l:apilib.a
+#	gcc -Wl,-u__errno_location -fno-pic -m32 -nostdlib -Tapi.ls -L-l:apilib.a calc.c -o calc.hrb
+
 crack7.o: crack7.asm
 	nasm -g -f elf32 -o crack7.o crack7.asm
 
@@ -346,6 +353,7 @@ haribote.img : ipl10.bin haribote.sys Makefile
 #	mcopy -i haribote.img notrec.hrb ::
 	mcopy -i haribote.img bball.hrb ::
 	mcopy -i haribote.img invader.hrb ::
+	mcopy -i haribote.img calc.hrb ::
 	
 	
 asm :
@@ -393,6 +401,7 @@ hrb :
 	make notrec.hrb
 	make bball.hrb
 	make invader.hrb
+	make calc.hrb
 	
 run :
 	make apilib.a

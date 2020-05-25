@@ -2,34 +2,34 @@
 割り当てている共通シンボル
 共通シンボル        サイズ            ファイル
 
-mousedata0          0x4               /tmp/ccT4GPP7.o
-keyfifo             0x4               /tmp/ccA5HNZ6.o
-taskctl             0x4               /tmp/ccE6h0Sb.o
-timerctl            0x2720            /tmp/ccwuw0La.o
-mousefifo           0x4               /tmp/ccT4GPP7.o
-task_timer          0x4               /tmp/ccE6h0Sb.o
-keydata0            0x4               /tmp/ccA5HNZ6.o
+mousedata0          0x4               /tmp/cctuq1Ct.o
+keyfifo             0x4               /tmp/ccgWOZiF.o
+taskctl             0x4               /tmp/cc1ErRHJ.o
+timerctl            0x2720            /tmp/ccy0oo4U.o
+mousefifo           0x4               /tmp/cctuq1Ct.o
+task_timer          0x4               /tmp/cc1ErRHJ.o
+keydata0            0x4               /tmp/ccgWOZiF.o
 
 破棄された入力セクション
 
- .eh_frame      0x0000000000000000       0xf4 /tmp/ccn9ZVf2.o
- .eh_frame      0x0000000000000000       0x7c /tmp/ccpZJc52.o
- .eh_frame      0x0000000000000000       0x58 /tmp/ccsYRdz3.o
- .eh_frame      0x0000000000000000      0x124 /tmp/cc4m4U83.o
- .eh_frame      0x0000000000000000       0x78 /tmp/ccNayoM4.o
- .eh_frame      0x0000000000000000       0x58 /tmp/ccmkjRs5.o
- .eh_frame      0x0000000000000000       0x98 /tmp/cczPCLc6.o
- .eh_frame      0x0000000000000000       0x78 /tmp/ccA5HNZ6.o
- .eh_frame      0x0000000000000000       0x78 /tmp/ccT4GPP7.o
- .eh_frame      0x0000000000000000      0x104 /tmp/ccqoUSJ8.o
- .eh_frame      0x0000000000000000      0x15c /tmp/ccz3E7I9.o
- .eh_frame      0x0000000000000000      0x118 /tmp/ccwuw0La.o
- .eh_frame      0x0000000000000000      0x16c /tmp/ccE6h0Sb.o
- .eh_frame      0x0000000000000000       0xd4 /tmp/ccvLSH4c.o
- .eh_frame      0x0000000000000000      0x264 /tmp/ccp0xlqe.o
- .eh_frame      0x0000000000000000       0x98 /tmp/cc8MGBPf.o
- .eh_frame      0x0000000000000000      0x250 /tmp/ccJOpQnh.o
- .eh_frame      0x0000000000000000       0x38 /tmp/ccnaYKYi.o
+ .eh_frame      0x0000000000000000       0xf4 /tmp/ccHP6TVc.o
+ .eh_frame      0x0000000000000000       0x7c /tmp/cchJVsFO.o
+ .eh_frame      0x0000000000000000       0x58 /tmp/ccNXiWBC.o
+ .eh_frame      0x0000000000000000      0x124 /tmp/ccmcXgDq.o
+ .eh_frame      0x0000000000000000       0x78 /tmp/cc7IDJIe.o
+ .eh_frame      0x0000000000000000       0x58 /tmp/ccS9eeR2.o
+ .eh_frame      0x0000000000000000       0x98 /tmp/cc9c8c3Q.o
+ .eh_frame      0x0000000000000000       0x78 /tmp/ccgWOZiF.o
+ .eh_frame      0x0000000000000000       0x78 /tmp/cctuq1Ct.o
+ .eh_frame      0x0000000000000000      0x104 /tmp/ccFp7x1h.o
+ .eh_frame      0x0000000000000000      0x15c /tmp/ccoxD3v6.o
+ .eh_frame      0x0000000000000000      0x118 /tmp/ccy0oo4U.o
+ .eh_frame      0x0000000000000000      0x16c /tmp/cc1ErRHJ.o
+ .eh_frame      0x0000000000000000       0xd4 /tmp/ccIK0Nqy.o
+ .eh_frame      0x0000000000000000      0x264 /tmp/ccoiLGkn.o
+ .eh_frame      0x0000000000000000       0x98 /tmp/cco84Oic.o
+ .eh_frame      0x0000000000000000      0x250 /tmp/ccQJ59q1.o
+ .eh_frame      0x0000000000000000       0x38 /tmp/ccGi6iCQ.o
 
 メモリ設定
 
@@ -38,26 +38,26 @@ keydata0            0x4               /tmp/ccA5HNZ6.o
 
 リンカスクリプトおよびメモリマップ
 
-LOAD /tmp/ccn9ZVf2.o
+LOAD /tmp/ccHP6TVc.o
 LOAD har.ld
-LOAD /tmp/cckC51D2.o
-LOAD /tmp/ccpZJc52.o
-LOAD /tmp/ccsYRdz3.o
-LOAD /tmp/cc4m4U83.o
-LOAD /tmp/ccNayoM4.o
-LOAD /tmp/ccmkjRs5.o
-LOAD /tmp/cczPCLc6.o
-LOAD /tmp/ccA5HNZ6.o
-LOAD /tmp/ccT4GPP7.o
-LOAD /tmp/ccqoUSJ8.o
-LOAD /tmp/ccz3E7I9.o
-LOAD /tmp/ccwuw0La.o
-LOAD /tmp/ccE6h0Sb.o
-LOAD /tmp/ccvLSH4c.o
-LOAD /tmp/ccp0xlqe.o
-LOAD /tmp/cc8MGBPf.o
-LOAD /tmp/ccJOpQnh.o
-LOAD /tmp/ccnaYKYi.o
+LOAD /tmp/ccqz9NL0.o
+LOAD /tmp/cchJVsFO.o
+LOAD /tmp/ccNXiWBC.o
+LOAD /tmp/ccmcXgDq.o
+LOAD /tmp/cc7IDJIe.o
+LOAD /tmp/ccS9eeR2.o
+LOAD /tmp/cc9c8c3Q.o
+LOAD /tmp/ccgWOZiF.o
+LOAD /tmp/cctuq1Ct.o
+LOAD /tmp/ccFp7x1h.o
+LOAD /tmp/ccoxD3v6.o
+LOAD /tmp/ccy0oo4U.o
+LOAD /tmp/cc1ErRHJ.o
+LOAD /tmp/ccIK0Nqy.o
+LOAD /tmp/ccoiLGkn.o
+LOAD /tmp/cco84Oic.o
+LOAD /tmp/ccQJ59q1.o
+LOAD /tmp/ccGi6iCQ.o
 LOAD nasmfunc.o
 
 .head           0x0000000000000000       0x48
@@ -82,7 +82,7 @@ LOAD nasmfunc.o
 
 .text           0x0000000000000050     0x8641
  *(.text)
- .text          0x0000000000000050     0x1130 /tmp/ccn9ZVf2.o
+ .text          0x0000000000000050     0x1130 /tmp/ccHP6TVc.o
                 0x0000000000000050                HariMain
                 0x0000000000000e9b                keywin_off
                 0x0000000000000ed9                keywin_on
@@ -90,15 +90,15 @@ LOAD nasmfunc.o
                 0x0000000000001016                open_console
                 0x00000000000010d3                close_constask
                 0x0000000000001132                close_console
- .text          0x0000000000001180        0x0 /tmp/cckC51D2.o
- .text          0x0000000000001180      0x1b8 /tmp/ccpZJc52.o
+ .text          0x0000000000001180        0x0 /tmp/ccqz9NL0.o
+ .text          0x0000000000001180      0x1b8 /tmp/cchJVsFO.o
                 0x0000000000001180                dec2asc
                 0x0000000000001211                hex2asc
                 0x000000000000129c                sprintf
- .text          0x0000000000001338      0x118 /tmp/ccsYRdz3.o
+ .text          0x0000000000001338      0x118 /tmp/ccNXiWBC.o
                 0x0000000000001338                strcmp
                 0x00000000000013c3                strncmp
- .text          0x0000000000001450      0xa19 /tmp/cc4m4U83.o
+ .text          0x0000000000001450      0xa19 /tmp/ccmcXgDq.o
                 0x0000000000001450                init_palette
                 0x00000000000015b7                set_palette
                 0x0000000000001663                boxfill8
@@ -107,27 +107,27 @@ LOAD nasmfunc.o
                 0x00000000000019c5                putfonts8_asc
                 0x0000000000001d2d                init_mouse_cursor8
                 0x0000000000001dfd                putblock8_8
- .text          0x0000000000001e69      0x261 /tmp/ccNayoM4.o
+ .text          0x0000000000001e69      0x261 /tmp/cc7IDJIe.o
                 0x0000000000001e69                init_gdtidt
                 0x0000000000002014                set_segmdesc
                 0x000000000000208b                set_gatedesc
- .text          0x00000000000020ca       0xf3 /tmp/ccmkjRs5.o
+ .text          0x00000000000020ca       0xf3 /tmp/ccS9eeR2.o
                 0x00000000000020ca                init_pic
                 0x00000000000021a5                inthandler27
- .text          0x00000000000021bd      0x178 /tmp/cczPCLc6.o
+ .text          0x00000000000021bd      0x178 /tmp/cc9c8c3Q.o
                 0x00000000000021bd                fifo32_init
                 0x0000000000002204                fifo32_put
                 0x00000000000022b1                fifo32_get
                 0x0000000000002320                fifo32_status
- .text          0x0000000000002335       0xa6 /tmp/ccA5HNZ6.o
+ .text          0x0000000000002335       0xa6 /tmp/ccgWOZiF.o
                 0x0000000000002335                inthandler21
                 0x000000000000237a                wait_KBC_sendready
                 0x000000000000239a                init_keyboard
- .text          0x00000000000023db      0x1e2 /tmp/ccT4GPP7.o
+ .text          0x00000000000023db      0x1e2 /tmp/cctuq1Ct.o
                 0x00000000000023db                inthandler2c
                 0x0000000000002432                enable_mouse
                 0x0000000000002480                mouse_decode
- .text          0x00000000000025bd      0x4ab /tmp/ccqoUSJ8.o
+ .text          0x00000000000025bd      0x4ab /tmp/ccFp7x1h.o
                 0x00000000000025bd                memtest
                 0x0000000000002674                memman_init
                 0x00000000000026a1                memman_total
@@ -135,7 +135,7 @@ LOAD nasmfunc.o
                 0x00000000000027c0                memman_free
                 0x0000000000002a0d                memman_alloc_4k
                 0x0000000000002a39                memman_free_4k
- .text          0x0000000000002a68      0xbb4 /tmp/ccz3E7I9.o
+ .text          0x0000000000002a68      0xbb4 /tmp/ccoxD3v6.o
                 0x0000000000002a68                shtctl_init
                 0x0000000000002b4a                sheet_alloc
                 0x0000000000002bca                sheet_setbuf
@@ -145,7 +145,7 @@ LOAD nasmfunc.o
                 0x0000000000003471                sheet_refresh
                 0x00000000000034e2                sheet_slide
                 0x00000000000035f5                sheet_free
- .text          0x000000000000361c      0x3c1 /tmp/ccwuw0La.o
+ .text          0x000000000000361c      0x3c1 /tmp/ccy0oo4U.o
                 0x000000000000361c                init_pit
                 0x00000000000036bd                timer_alloc
                 0x0000000000003738                timer_free
@@ -154,7 +154,7 @@ LOAD nasmfunc.o
                 0x0000000000003809                inthandler20
                 0x00000000000038b5                timer_cansel
                 0x0000000000003951                timer_cancelall
- .text          0x00000000000039dd      0x742 /tmp/ccE6h0Sb.o
+ .text          0x00000000000039dd      0x742 /tmp/cc1ErRHJ.o
                 0x00000000000039dd                task_now
                 0x0000000000003a23                task_add
                 0x0000000000003a82                task_remove
@@ -165,13 +165,13 @@ LOAD nasmfunc.o
                 0x0000000000003f6b                task_run
                 0x0000000000003fdb                task_sleep
                 0x000000000000402b                task_switch
- .text          0x000000000000411f      0x65e /tmp/ccvLSH4c.o
+ .text          0x000000000000411f      0x65e /tmp/ccIK0Nqy.o
                 0x000000000000411f                make_window8
                 0x0000000000004289                make_wtitle8
                 0x000000000000437a                putfonts8_asc_sht
                 0x0000000000004498                make_textbox8
                 0x0000000000004698                change_wtitle8
- .text          0x000000000000477d     0x1d11 /tmp/ccp0xlqe.o
+ .text          0x000000000000477d     0x1d11 /tmp/ccoiLGkn.o
                 0x000000000000477d                console_task
                 0x0000000000004b80                cons_putchar
                 0x0000000000004c9b                cons_newline
@@ -190,15 +190,15 @@ LOAD nasmfunc.o
                 0x00000000000062a2                inthandler0c
                 0x0000000000006306                inthandler0d
                 0x000000000000636a                hrb_api_linewin
- .text          0x000000000000648e      0x36c /tmp/cc8MGBPf.o
+ .text          0x000000000000648e      0x36c /tmp/cco84Oic.o
                 0x000000000000648e                file_readfat
                 0x000000000000653e                file_loadfile
                 0x00000000000065e2                file_search
                 0x0000000000006745                file_loadfile2
- .text          0x00000000000067fa     0x1c52 /tmp/ccJOpQnh.o
+ .text          0x00000000000067fa     0x1c52 /tmp/ccQJ59q1.o
                 0x0000000000006846                tek_getsize
                 0x00000000000068a9                tek_decomp
- .text          0x000000000000844c       0x64 /tmp/ccnaYKYi.o
+ .text          0x000000000000844c       0x64 /tmp/ccGi6iCQ.o
                 0x000000000000844c                memcmp
  .text          0x00000000000084b0      0x1e1 nasmfunc.o
                 0x00000000000084b0                io_hlt
@@ -237,49 +237,49 @@ LOAD nasmfunc.o
 
 .data           0x0000000000310000     0x14ca ロードアドレス 0x0000000000008691
  *(.data)
- .data          0x0000000000310000      0x100 /tmp/ccn9ZVf2.o
- .data          0x0000000000310100     0x1000 /tmp/cckC51D2.o
+ .data          0x0000000000310000      0x100 /tmp/ccHP6TVc.o
+ .data          0x0000000000310100     0x1000 /tmp/ccqz9NL0.o
                 0x0000000000310100                hankaku
- .data          0x0000000000311100        0x0 /tmp/ccpZJc52.o
- .data          0x0000000000311100        0x0 /tmp/ccsYRdz3.o
- .data          0x0000000000311100      0x140 /tmp/cc4m4U83.o
- .data          0x0000000000311240        0x0 /tmp/ccNayoM4.o
- .data          0x0000000000311240        0x0 /tmp/ccmkjRs5.o
- .data          0x0000000000311240        0x0 /tmp/cczPCLc6.o
- .data          0x0000000000311240        0x0 /tmp/ccA5HNZ6.o
- .data          0x0000000000311240        0x0 /tmp/ccT4GPP7.o
- .data          0x0000000000311240        0x0 /tmp/ccqoUSJ8.o
- .data          0x0000000000311240        0x0 /tmp/ccz3E7I9.o
- .data          0x0000000000311240        0x0 /tmp/ccwuw0La.o
- .data          0x0000000000311240        0x0 /tmp/ccE6h0Sb.o
- .data          0x0000000000311240       0xe0 /tmp/ccvLSH4c.o
- .data          0x0000000000311320        0x0 /tmp/ccp0xlqe.o
- .data          0x0000000000311320        0x0 /tmp/cc8MGBPf.o
- .data          0x0000000000311320       0x70 /tmp/ccJOpQnh.o
- .data          0x0000000000311390        0x0 /tmp/ccnaYKYi.o
+ .data          0x0000000000311100        0x0 /tmp/cchJVsFO.o
+ .data          0x0000000000311100        0x0 /tmp/ccNXiWBC.o
+ .data          0x0000000000311100      0x140 /tmp/ccmcXgDq.o
+ .data          0x0000000000311240        0x0 /tmp/cc7IDJIe.o
+ .data          0x0000000000311240        0x0 /tmp/ccS9eeR2.o
+ .data          0x0000000000311240        0x0 /tmp/cc9c8c3Q.o
+ .data          0x0000000000311240        0x0 /tmp/ccgWOZiF.o
+ .data          0x0000000000311240        0x0 /tmp/cctuq1Ct.o
+ .data          0x0000000000311240        0x0 /tmp/ccFp7x1h.o
+ .data          0x0000000000311240        0x0 /tmp/ccoxD3v6.o
+ .data          0x0000000000311240        0x0 /tmp/ccy0oo4U.o
+ .data          0x0000000000311240        0x0 /tmp/cc1ErRHJ.o
+ .data          0x0000000000311240       0xe0 /tmp/ccIK0Nqy.o
+ .data          0x0000000000311320        0x0 /tmp/ccoiLGkn.o
+ .data          0x0000000000311320        0x0 /tmp/cco84Oic.o
+ .data          0x0000000000311320       0x70 /tmp/ccQJ59q1.o
+ .data          0x0000000000311390        0x0 /tmp/ccGi6iCQ.o
  *(.rodata*)
- .rodata        0x0000000000311390       0x40 /tmp/ccn9ZVf2.o
- .rodata        0x00000000003113d0       0xf9 /tmp/ccp0xlqe.o
+ .rodata        0x0000000000311390       0x40 /tmp/ccHP6TVc.o
+ .rodata        0x00000000003113d0       0xf9 /tmp/ccoiLGkn.o
  *(.bss)
- .bss           0x00000000003114c9        0x0 /tmp/ccn9ZVf2.o
- .bss           0x00000000003114c9        0x0 /tmp/cckC51D2.o
- .bss           0x00000000003114c9        0x0 /tmp/ccpZJc52.o
- .bss           0x00000000003114c9        0x0 /tmp/ccsYRdz3.o
- .bss           0x00000000003114c9        0x0 /tmp/cc4m4U83.o
- .bss           0x00000000003114c9        0x0 /tmp/ccNayoM4.o
- .bss           0x00000000003114c9        0x0 /tmp/ccmkjRs5.o
- .bss           0x00000000003114c9        0x0 /tmp/cczPCLc6.o
- .bss           0x00000000003114c9        0x0 /tmp/ccA5HNZ6.o
- .bss           0x00000000003114c9        0x0 /tmp/ccT4GPP7.o
- .bss           0x00000000003114c9        0x0 /tmp/ccqoUSJ8.o
- .bss           0x00000000003114c9        0x0 /tmp/ccz3E7I9.o
- .bss           0x00000000003114c9        0x0 /tmp/ccwuw0La.o
- .bss           0x00000000003114c9        0x0 /tmp/ccE6h0Sb.o
- .bss           0x00000000003114c9        0x0 /tmp/ccvLSH4c.o
- .bss           0x00000000003114c9        0x0 /tmp/ccp0xlqe.o
- .bss           0x00000000003114c9        0x0 /tmp/cc8MGBPf.o
- .bss           0x00000000003114c9        0x1 /tmp/ccJOpQnh.o
- .bss           0x00000000003114ca        0x0 /tmp/ccnaYKYi.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccHP6TVc.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccqz9NL0.o
+ .bss           0x00000000003114c9        0x0 /tmp/cchJVsFO.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccNXiWBC.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccmcXgDq.o
+ .bss           0x00000000003114c9        0x0 /tmp/cc7IDJIe.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccS9eeR2.o
+ .bss           0x00000000003114c9        0x0 /tmp/cc9c8c3Q.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccgWOZiF.o
+ .bss           0x00000000003114c9        0x0 /tmp/cctuq1Ct.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccFp7x1h.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccoxD3v6.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccy0oo4U.o
+ .bss           0x00000000003114c9        0x0 /tmp/cc1ErRHJ.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccIK0Nqy.o
+ .bss           0x00000000003114c9        0x0 /tmp/ccoiLGkn.o
+ .bss           0x00000000003114c9        0x0 /tmp/cco84Oic.o
+ .bss           0x00000000003114c9        0x1 /tmp/ccQJ59q1.o
+ .bss           0x00000000003114ca        0x0 /tmp/ccGi6iCQ.o
  *(.data)
  *(.rodata*)
  *(.bss)
@@ -290,78 +290,78 @@ LOAD nasmfunc.o
 OUTPUT(bootpack.hrb binary)
 
 .comment        0x0000000000000000      0x31e
- .comment       0x0000000000000000       0x2a /tmp/ccn9ZVf2.o
- .comment       0x000000000000002a       0x2a /tmp/cckC51D2.o
- .comment       0x0000000000000054       0x2a /tmp/ccpZJc52.o
- .comment       0x000000000000007e       0x2a /tmp/ccsYRdz3.o
- .comment       0x00000000000000a8       0x2a /tmp/cc4m4U83.o
- .comment       0x00000000000000d2       0x2a /tmp/ccNayoM4.o
- .comment       0x00000000000000fc       0x2a /tmp/ccmkjRs5.o
- .comment       0x0000000000000126       0x2a /tmp/cczPCLc6.o
- .comment       0x0000000000000150       0x2a /tmp/ccA5HNZ6.o
- .comment       0x000000000000017a       0x2a /tmp/ccT4GPP7.o
- .comment       0x00000000000001a4       0x2a /tmp/ccqoUSJ8.o
- .comment       0x00000000000001ce       0x2a /tmp/ccz3E7I9.o
- .comment       0x00000000000001f8       0x2a /tmp/ccwuw0La.o
- .comment       0x0000000000000222       0x2a /tmp/ccE6h0Sb.o
- .comment       0x000000000000024c       0x2a /tmp/ccvLSH4c.o
- .comment       0x0000000000000276       0x2a /tmp/ccp0xlqe.o
- .comment       0x00000000000002a0       0x2a /tmp/cc8MGBPf.o
- .comment       0x00000000000002ca       0x2a /tmp/ccJOpQnh.o
- .comment       0x00000000000002f4       0x2a /tmp/ccnaYKYi.o
+ .comment       0x0000000000000000       0x2a /tmp/ccHP6TVc.o
+ .comment       0x000000000000002a       0x2a /tmp/ccqz9NL0.o
+ .comment       0x0000000000000054       0x2a /tmp/cchJVsFO.o
+ .comment       0x000000000000007e       0x2a /tmp/ccNXiWBC.o
+ .comment       0x00000000000000a8       0x2a /tmp/ccmcXgDq.o
+ .comment       0x00000000000000d2       0x2a /tmp/cc7IDJIe.o
+ .comment       0x00000000000000fc       0x2a /tmp/ccS9eeR2.o
+ .comment       0x0000000000000126       0x2a /tmp/cc9c8c3Q.o
+ .comment       0x0000000000000150       0x2a /tmp/ccgWOZiF.o
+ .comment       0x000000000000017a       0x2a /tmp/cctuq1Ct.o
+ .comment       0x00000000000001a4       0x2a /tmp/ccFp7x1h.o
+ .comment       0x00000000000001ce       0x2a /tmp/ccoxD3v6.o
+ .comment       0x00000000000001f8       0x2a /tmp/ccy0oo4U.o
+ .comment       0x0000000000000222       0x2a /tmp/cc1ErRHJ.o
+ .comment       0x000000000000024c       0x2a /tmp/ccIK0Nqy.o
+ .comment       0x0000000000000276       0x2a /tmp/ccoiLGkn.o
+ .comment       0x00000000000002a0       0x2a /tmp/cco84Oic.o
+ .comment       0x00000000000002ca       0x2a /tmp/ccQJ59q1.o
+ .comment       0x00000000000002f4       0x2a /tmp/ccGi6iCQ.o
 
 .note.GNU-stack
                 0x0000000000000000        0x0
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccn9ZVf2.o
+                0x0000000000000000        0x0 /tmp/ccHP6TVc.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cckC51D2.o
+                0x0000000000000000        0x0 /tmp/ccqz9NL0.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccpZJc52.o
+                0x0000000000000000        0x0 /tmp/cchJVsFO.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccsYRdz3.o
+                0x0000000000000000        0x0 /tmp/ccNXiWBC.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc4m4U83.o
+                0x0000000000000000        0x0 /tmp/ccmcXgDq.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccNayoM4.o
+                0x0000000000000000        0x0 /tmp/cc7IDJIe.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccmkjRs5.o
+                0x0000000000000000        0x0 /tmp/ccS9eeR2.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cczPCLc6.o
+                0x0000000000000000        0x0 /tmp/cc9c8c3Q.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccA5HNZ6.o
+                0x0000000000000000        0x0 /tmp/ccgWOZiF.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccT4GPP7.o
+                0x0000000000000000        0x0 /tmp/cctuq1Ct.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccqoUSJ8.o
+                0x0000000000000000        0x0 /tmp/ccFp7x1h.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccz3E7I9.o
+                0x0000000000000000        0x0 /tmp/ccoxD3v6.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccwuw0La.o
+                0x0000000000000000        0x0 /tmp/ccy0oo4U.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccE6h0Sb.o
+                0x0000000000000000        0x0 /tmp/cc1ErRHJ.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccvLSH4c.o
+                0x0000000000000000        0x0 /tmp/ccIK0Nqy.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccp0xlqe.o
+                0x0000000000000000        0x0 /tmp/ccoiLGkn.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/cc8MGBPf.o
+                0x0000000000000000        0x0 /tmp/cco84Oic.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccJOpQnh.o
+                0x0000000000000000        0x0 /tmp/ccQJ59q1.o
  .note.GNU-stack
-                0x0000000000000000        0x0 /tmp/ccnaYKYi.o
+                0x0000000000000000        0x0 /tmp/ccGi6iCQ.o
 
 .bss            0x00000000003114e0     0x2748 ロードアドレス 0x0000000000009b80
- COMMON         0x00000000003114e0        0x8 /tmp/ccA5HNZ6.o
+ COMMON         0x00000000003114e0        0x8 /tmp/ccgWOZiF.o
                 0x00000000003114e0                keyfifo
                 0x00000000003114e4                keydata0
- COMMON         0x00000000003114e8        0x8 /tmp/ccT4GPP7.o
+ COMMON         0x00000000003114e8        0x8 /tmp/cctuq1Ct.o
                 0x00000000003114e8                mousedata0
                 0x00000000003114ec                mousefifo
  *fill*         0x00000000003114f0       0x10 
- COMMON         0x0000000000311500     0x2720 /tmp/ccwuw0La.o
+ COMMON         0x0000000000311500     0x2720 /tmp/ccy0oo4U.o
                 0x0000000000311500                timerctl
- COMMON         0x0000000000313c20        0x8 /tmp/ccE6h0Sb.o
+ COMMON         0x0000000000313c20        0x8 /tmp/cc1ErRHJ.o
                 0x0000000000313c20                taskctl
                 0x0000000000313c24                task_timer
 
